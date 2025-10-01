@@ -15,6 +15,8 @@ Jadi, keputusan ini berdasarkan prinsip UI/UX: makin kecil layar → fokus ke ke
     Intinya, utility responsive dipakai untuk membuat desain fleksibel: layout di mobile sederhana, tapi lebih kompleks di layar besar.
 
 3. Jelaskan trade-off antara memakai banyak utility classes vs membuat component CSS tersendiri.
+
+
     a. Utility Classes (Tailwind langsung di HTML):
         kelebihan :
             - Cepat, konsisten, mudah diubah per breakpoint.
@@ -28,4 +30,5 @@ Jadi, keputusan ini berdasarkan prinsip UI/UX: makin kecil layar → fokus ke ke
             - Cocok untuk gaya yang dipakai berulang kali (misal tombol utama, card).
         kekurangan :
             - Kurang fleksibel saat perlu penyesuaian kecil di breakpoint (harus override lagi).
+
     Jadi, biasanya: utility classes untuk layout unik / kecil, component CSS untuk pattern berulang.
