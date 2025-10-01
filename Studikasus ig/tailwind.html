@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tailwind</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="flex min-h-screen">
+  <!-- Sidebar -->
+  <div class="sidebar flex flex-col p-4 w-56 min-h-screen">
+    <h1 class="text-xl font-bold mb-4">Instagram</h1>
+    <nav class="flex flex-col gap-2">
+      <a href="#">Home</a>
+      <a href="#">Search</a>
+      <a href="#">Explore</a>
+      <a href="#">Reels</a>
+      <a href="#">Messages</a>
+      <a href="#">Notifications</a>
+      <a href="#">Create</a>
+      <a href="#">Profile</a>
+    </nav>
+    <!-- Bagian bawah -->
+    <div class="mt-auto pt-3">
+      <a href="#">Lainnya</a><br>
+      <a href="#">Juga dari Meta</a>
+    </div>
+  </div>
+
+  <!-- Konten -->
+  <div class="flex-1 p-6">
+    <!-- Profile -->
+    <div class="flex items-center gap-10 mb-6">
+      <img src="images/profil.png" alt="Profil" class="profile-pic">
+      <div>
+        <div class="flex items-center gap-3 mb-2">
+          <h2 class="text-lg font-semibold">Manm_aaaa</h2>
+          <button class="px-3 py-1 border border-gray-300 rounded">Edit Profile</button>
+          <button class="px-3 py-1 border border-gray-300 rounded">Archive</button>
+        </div>
+        <div class="flex gap-6 mb-2">
+          <span><b>12</b> posts</span>
+          <span><b>167</b> followers</span>
+          <span><b>206</b> following</span>
+        </div>
+        <p class="font-semibold mb-0">mannn</p>
+        <p class="text-gray-500">saya saya<br> - - - - - <br> iya iya</p>
+      </div>
+    </div>
+
+    <!-- Feeds IG (12 Foto) -->
+    <div class="grid grid-cols-3 gap-2 max-w-4xl">
+      <img src="images/1.jpg" class="feed-img" alt="">
+      <img src="images/2.jpg" class="feed-img" alt="">
+      <img src="images/3.jpg" class="feed-img" alt="">
+      <img src="images/4.jpg" class="feed-img" alt="">
+      <img src="images/5.jpg" class="feed-img" alt="">
+      <img src="images/6.jpg" class="feed-img" alt="">
+      <img src="images/7.jpg" class="feed-img" alt="">
+      <img src="images/8.jpg" class="feed-img" alt="">
+      <img src="images/9.jpg" class="feed-img" alt="">
+      <img src="images/10.jpg" class="feed-img" alt="">
+      <img src="images/11.jpg" class="feed-img" alt="">
+      <img src="images/12.jpg" class="feed-img" alt="">
+    </div>
+  </div>
+</body>
+</html>
